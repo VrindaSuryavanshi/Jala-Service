@@ -1,0 +1,70 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+.serach-bar-button{
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+form, .search-section, .category-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, select, textarea, button {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+.passwordInput{
+  margin-top: 20px;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.user-details, .category-details {
+  margin-top: 20px;
+}
+table tr{
+ margin: 20px;
+ background-color: rgb(245, 236, 236);
+ line-height: 30px;
+}
